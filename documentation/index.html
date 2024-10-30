@@ -1,0 +1,514 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>LiveTV Bundle for WordPress - Starter Guide</title>
+	
+	<meta name="description" content="Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!">
+	<meta name="author" content="Laurent (KwarK) Bertrand">
+	<meta name="copyright" content="Laurent (KwarK) Bertrand">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2012-04-26T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	
+	<script>document.createElement('section');var duration=450,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#E9E9E9;color:#383838;}
+		::-moz-selection{background:#FF9900;color:#424242;}
+		::selection{background:#FF9900;color:#424242;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#FF9900;}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #F7F7F7;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#BCBCBC;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #DBDBDB;-moz-text-shadow:1px 1px 0px #DBDBDB;text-shadow:1px 1px 0px #DBDBDB;}
+		#documenter_sidebar ol{border-top:1px solid #A1A1A1;}
+		#documenter_sidebar ol a{border-top:1px solid #DBDBDB;border-bottom:1px solid #A1A1A1;color:#424242;}
+		#documenter_sidebar ol a:hover{background:#FF9900;color:#424242;border-top:1px solid #FF9900;}
+		#documenter_sidebar ol a.current{background:#FF9900;color:#424242;border-top:1px solid #FF9900;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#technical_feature">Technical feature</a></li>
+			<li><a href="#introduction_scenario">Introduction scenario</a></li>
+			<li><a href="#installation_scenario">Installation scenario</a></li>
+			<li><a href="#options_details">Options details</a></li>
+			<li><a href="#how_to_livestream_page">How to: livestream page</a></li>
+			<li><a href="#how_to_manual_shortcode">How to: manual shortcode</a></li>
+			<li><a href="#css_troubleshooting">CSS troubleshooting</a></li>
+			<li><a href="#credits">Credits</a></li>
+			<li><a href="#thank_you">Thank you</a></li>
+            <li><br>If you may condider a donation<a href="http://kwark.allwebtuts.net">http://kwark.allwebtuts.net</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Laurent (KwarK) Bertrand 2012.<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>LiveTV Bundle for WordPress</h1><h2>Starter Guide</h2><hr><ul><li>Created: 04/25/2012</li><li>latest Update: 04/26/2012</li><li>By: Laurent (KwarK) Bertrand</li><li><a href=""></a></li><li>Email: <a href="mailto:&#107;&#119;&#97;&#114;&#107;&#64;&#97;&#108;&#108;&#119;&#101;&#98;&#116;&#117;&#116;&#115;&#46;&#110;&#101;&#116;">&#107;&#119;&#97;&#114;&#107;&#64;&#97;&#108;&#108;&#119;&#101;&#98;&#116;&#117;&#116;&#115;&#46;&#110;&#101;&#116;</a></li></ul><p>Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p></section><section id="introduction">
+	<h3>Introduction</h3><hr class="notop">
+<div>
+	This documentation is a starter guide and contains</div>
+<ul>
+	<li>
+		A quick starter guide, step by step.</li>
+	<li>
+		That explains what you can do with the plugin.</li>
+	<li>
+		Also explains the options</li>
+	<li>
+		Explain the automated livestream page with its view modes</li>
+	<li>
+		Explain the manual shortcode possibilities</li>
+</ul>
+</section>
+<section id="technical_feature">
+	<h3>Technical feature</h3><hr class="notop">
+<p>
+	<strong>Details of technical features</strong></p>
+<p>&nbsp;
+	</p>
+<ul>
+	<li>
+		Create automatically a page with livestreams from your team members in a loop of thumbnails</li>
+	<li>
+		Create new roles or use wordpress default roles to give this access to your team members</li>
+	<li>
+		View current game</li>
+	<li>
+		View xplit message</li>
+	<li>
+		View live!since date and hour</li>
+	<li>
+		Display or not livestreams offline</li>
+	<li>
+		Generate thumbnails list for each types (own3d, justin, twitch) and change the display order</li>
+	<li>
+		Large view and normal view</li>
+	<li>
+		Cache system</li>
+	<li>
+		Sidebar widget</li>
+	<li>
+		Generate automatically one IRC Channel under each livestream</li>
+	<li>
+		Colorization system for text (all html color) and 3 general themes. Applied this plugin easily to the most popular themes without coding.</li>
+	<li>
+		Optional: work also with different manual shortcodes in articles or pages for temporary events (current livestream + its IRC channel).</li>
+	<li>
+		Compatible with all recent major browser IE9 , Safari, Chrome, Firefox, Opera</li>
+	<li>
+		Highly customizable and adaptive to all major themes with administration options without coding.</li>
+	<li>
+		Compatible with WordPress network (multi-sites system)</li>
+	<li>
+		* Langage .mo included en US, en EN, fr FR</li>
+</ul>
+</section>
+<section id="introduction_scenario">
+	<h3>Introduction scenario</h3><hr class="notop">
+<p>
+	<em><strong>What&#39;s &quot;introduction scenario&quot; ?</strong></em></p>
+<p>&nbsp;
+	</p>
+<ul>
+	<li>
+		This plugin&nbsp;was built in&nbsp;a&nbsp;bundle&nbsp;of plugins in the same folder.&nbsp;However,&nbsp;you have&nbsp;nothing to&nbsp;configure, this plugin uses&nbsp;the basics of&nbsp;WordPress.</li>
+	<li>
+		You&nbsp;simply&nbsp;goes to&nbsp;Dashboard &gt; section&nbsp;Plugins and activate only the plugin part LiveTV - *&nbsp;you&nbsp;need&nbsp;for your usage.&nbsp;A rule exist: e.g. Imagine: you use LiveTV - 2 - livestream -&gt; all sub-parts (0 + 1 + 2) must be activated. Thisallows&nbsp;to use only&nbsp;the applications&nbsp;you need&nbsp;for your usage.</li>
+</ul>
+<p style="margin-left: 40px; ">&nbsp;
+	</p>
+<p>
+	<em><strong>Description of the part in your wordpress Dashboard &gt; Plugins &gt; installed plugins</strong></em></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>LiveTV Team - 0 - Main Fork</strong></p>
+<p>
+	The necessary part for all sup-parts (activate this part first)</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>liveTV Team - 1 - General shortcode</strong></p>
+<p>
+	The necessary part to use manual shortcode in posts or pages</p>
+<ul>
+	<li>
+		require LiveTV Team - 0 - Main Fork activated</li>
+</ul>
+<p>
+	For more informations on manual shortcode usage&nbsp;<a href="#how_to_manual_shortcode">manual_shortcode_usage</a></p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>liveTV Team - 2 - Display lives</strong></p>
+<p>
+	The necessary part to create a page automatically with the loop of thumbnails and the two single mode, large view and normal view.</p>
+<ul>
+	<li>
+		require LiveTV Team - 0 - Main Fork activated</li>
+	<li>
+		require liveTV Team - 1 - General shortcode activated</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>liveTV Team - 3 - IRC chat</strong></p>
+<p>
+	The necessary part to create a IRC Channel automatically (Chat zone) under each livestream.</p>
+<ul>
+	<li>
+		require LiveTV Team - 0 - Main Fork activated</li>
+	<li>
+		require liveTV Team - 1 - General shortcode activated</li>
+	<li>
+		require liveTV Team - 2 - Display lives activated</li>
+</ul>
+<p>
+	information: work also lonelly for displaying irc chat only and with manual shortcode</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>liveTV&nbsp;Team - 4 - Widget</strong></p>
+<p>
+	The necessary part to have a new widget in your administration area &gt; widget section to create and view&nbsp;a list of livestream on the sidebar.</p>
+<ul>
+	<li>
+		require LiveTV Team - 0 - Main Fork activated</li>
+	<li>
+		require liveTV Team - 1 - General shortcode activated</li>
+	<li>
+		require liveTV Team - 2 - Display lives activated</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>Why i do introduced this technique ?</strong></p>
+<p>
+	The usage you make of the&nbsp;plugin is&nbsp;perhaps not&nbsp;the same usage of another&nbsp;user.&nbsp;Maybe,&nbsp;you will create&nbsp;a&nbsp;team&nbsp;and have lots of&nbsp;livestream.<br>
+	<br>
+	Another user&nbsp;downloads this plugin maybe&nbsp;because he needs&nbsp;to create&nbsp;chat box with manual shortcode in a few articles or in a page to chat with its members. Then,&nbsp;nothing else.</p>
+<p>&nbsp;
+	</p>
+<p>
+	Now, we can talk about: <strong>scenario&nbsp;of use</strong></p>
+</section>
+<section id="installation_scenario">
+	<h3>Installation scenario</h3><hr class="notop">
+<p>
+	<strong>Installation scenario</strong></p>
+<p>&nbsp;
+	</p>
+<p>
+	<em>You have a team and you desire to share all your livestreams from your members in your team. You need also a sidebar widget</em></p>
+<p>
+	Activate all part of the plugin</p>
+<ul>
+	<li>
+		LiveTV Team - 0 - Main Fork</li>
+	<li>
+		liveTV Team - 1 - General shortcode</li>
+	<li>
+		liveTV Team - 2 - Display lives</li>
+	<li>
+		liveTV Team - 3 - IRC chat</li>
+	<li>
+		liveTV Team - 4 - Widget</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<em>You have a team and you desire to share all your livestreams from your members but without sidebar widget</em></p>
+<p>
+	Activate this part of the plugin</p>
+<ul>
+	<li>
+		LiveTV Team - 0 - Main Fork</li>
+	<li>
+		liveTV Team - 1 - General shortcode</li>
+	<li>
+		liveTV Team - 2 - Display lives</li>
+	<li>
+		liveTV Team - 3 - IRC chat</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	<em>You are the administrator of your site and you have only one livestream to share and one IRC to place under this livestream</em></p>
+<p>
+	Activate this part of the plugin</p>
+<ul>
+	<li>
+		LiveTV Team - 0 - Main Fork</li>
+	<li>
+		liveTV Team - 1 - General shortcode</li>
+	<li>
+		liveTV Team - 3 - IRC chat (work lonely with manual shortcode to diplay IRC in a page or a post)</li>
+</ul>
+<p>&nbsp;
+	</p>
+<p>
+	For more informations on manual shortcode usage&nbsp;<a href="#how_to_manual_shortcode">manual_shortcode_usage</a></p>
+<p>&nbsp;
+	</p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="options_details">
+	<h3>Options details</h3><hr class="notop">
+<p>
+	<strong>Configurations and quick explanations of options in administration</strong></p>
+<p>
+	information: When you activate the plugin, all is done and nothing to configure. A lot of options are registered by default and all work fine for all user with administrator role. But, if you desire to define other values to adapt the plugin to a theme or for other reasons (like define some new roles where the user in this new role have access to share its livestreams):&nbsp;Here are&nbsp;details&nbsp;of&nbsp;options</p>
+<p>
+	<em><strong>First: In your administration Dashboard &gt; liveTV Bundle &gt; general configuration</strong></em></p>
+<p>
+	<img alt="" src="assets/images/image_1.png" style="width: 660px; height: 348px; "></p>
+<p>
+	These options in this section are the basics for the plugin for manual shortcode and livestream page.</p>
+<ol>
+	<li>
+		General default width for all livestreams (this option define a default width value for all manual shortcode to fetch directly all livestream to your theme)</li>
+	<li>
+		General default height for all livestreams (this option define a default height value for all manual shortcodes to fetch directly all livestream to your theme)</li>
+	<li>
+		General color option (this option affect the general theme of the plugin and enqueue the theme of your choice for the plugin and the thumbnails)</li>
+	<li>
+		Choose the autoplay option (This option define a default autoplay option and if &quot;On&quot;, livestream start automatically when a user view a current livestream)</li>
+	<li>
+		General visibility for all livestreams (if defined to &quot;members only&quot;, all visitors view a link with the information of your choice defined in the option 6 and 7)</li>
+	<li>
+		General message for visitors (this option is viewable only if you define on option 5 &quot;members only&quot;. This option define a special message of your choice for the visitors in place of the livestream if the current user is not connected to your site)</li>
+	<li>
+		The link of your choice (full link to your registration page, login page,...) for visitors (if options 5 is defined to &quot;members only&quot;)</li>
+</ol>
+<p>
+	<em><strong>Now, in your wordpress Dashboard &gt; liveTV Bundle &gt; General livestream</strong></em></p>
+<p>
+	Do not be afraid with the list of options. It&#39;s very intuitive and most are there to stylish the page livestream.</p>
+<p>
+	<img alt="" src="assets/images/image_2.png" style="width: 660px; height: 697px; "></p>
+<ol>
+	<li>
+		This option appears only when you create new roles and this option permit to delete a special role. when you delete a role, all your members in this role return to the members default wordpress role automatically.</li>
+	<li>
+		The special roles list you have created with the plugin.</li>
+	<li>
+		Affect the h3 on livestream page (choose image like own3d, justin, twitch image or change these h3 &nbsp;for a text value)</li>
+	<li>
+		View live offline. Display or not the livestreams offline (you may choose on, off or off only on widget)</li>
+	<li>
+		Choose a slide effect. At the bottom of each livestream, you have a quakenet irc chat. But behind the irc, you have the div &quot;share option&quot;. This zone is draggable and also a JQuery effect exist to slide to this div &quot;share option&quot; when you click on this zone (when you have the cursor pointer). This option change the direction of the slider effect.</li>
+	<li>
+		Choose a bubble dialog effect. You have 3 choices. This option change the color of the bubble dialog effect (all bubble onmouse over). You have one white, one grey and one black (black mimic the Youtube bubble).</li>
+	<li>
+		Choose a cache time. The plugin request on some external platform (own3d, twitch, justin, livestream). This option decrease the request and make a faster display for the livestream page with thumbnails. This option affect all thumbnails list (on widget and on livestream page).</li>
+	<li>
+		Make all chat IRC based on. All livestream have its IRC channel. This option generate automatically the structure of your choice for the #channelIRC name under each livestream.</li>
+	<li>
+		Display thumbnails on 3 columns. With a few largest themes, or with a page template without sidebar, you may need to diplay thumbnails on 3 columns if you have the width to do that.</li>
+	<li>
+		Disable button normal view. If you choose a page template without sidebar, the button &quot;normal view&quot; become uneccessary (and secondarily, the plugin may have a css bug with this page template without sidebar). This option disable the button &quot;normal view&quot;.</li>
+	<li>
+		Change color for thumbnails text informations. I have added this option because, in my test with a lot of other themes, the text informations at the right of the image thumbnail don&#39;t colorize correctly with a few themes. This option change the color of the text at the right side of each thumbnail.</li>
+	<li>
+		Livestream display order. If you use multiple plateform (own3d, twitch, justin). You may change the display order of each thumbnails list on your livestream page.</li>
+	<li>
+		Define your link to Facebook. Define the complete link to your Facebook page of your team.</li>
+	<li>
+		Define your link to Twitter. Define the complete link to your Twitter page of your team.</li>
+	<li>
+		Make this on new role. If you choose &quot;on&quot; a new zone 16 appears. If you choose off, a new zone appears also but with a list of default wordpress role.(an administrator have already access to livestream from their profile).</li>
+	<li>
+		Define a name for your role (like Team Lol, Team Warcraft, ...) and create this role based on capabilities of a default wordpress role. When the role is created, we must put&nbsp;your involved users for this role in this role. (Dashboard &gt; users &gt; allusers &gt; Retrieve this user &gt; click on Edit to view its profil &gt; change &quot;Role:&quot; for the new value).</li>
+</ol>
+</section>
+<section id="how_to_livestream_page">
+	<h3>How to: livestream page</h3><hr class="notop">
+<p>
+	<strong>Information&nbsp;</strong>if you lose (delete) accidentally your livestream page, the correct shortcode to make the loop of thumbnails with the view modes is:&nbsp;[LivesOnline]</p>
+<ol>
+	<li>
+		<a href="#add_livestream">Add livestream to your livestream page</a></li>
+	<li>
+		<a href="#delete_livestream">Delete one livestream</a></li>
+	<li>
+		<a href="#add_special_role">Add a special role</a></li>
+	<li>
+		<a href="#change_role">Change role of a members of my team</a></li>
+</ol>
+<p>
+	<em><strong><a name="add_livestream"></a>How to add one livestream to your livestream page</strong></em></p>
+<p>
+	Just go to your wordpress profil field. For own3d, add only the ID of your channel in the input &quot;own3d&quot; &gt; Click on the default button wordpress to update your profil. For Twitch and Justin, is the same step but with the channelName.</p>
+<p>
+	<em><strong><a name="delete_livestream"></a>How to delete a livestream</strong></em></p>
+<p>
+	Just go to your wordpress profil field and select (in the delete option) the current channel when you desire to delete.</p>
+<p>
+	<em><strong><a name="add_special_role"></a>How to add a special role</strong></em></p>
+<p>
+	Just go to your wordpress dashboard &gt; liveTV Bundle &gt; general livestream, Turn option &quot;make this on new role&quot; to &quot;On&quot; if is necessary. Now, add a name of your choice for the new role. Choose the capabilities for this role (based on some default role wordpress). &nbsp;Click on &quot;Save changes&quot;.</p>
+<p>
+	<em><strong><a name="change_role"></a>How to change the current role of a member of my team</strong></em></p>
+<p>
+	Just go to your wordpress dashboard &gt; Users &gt; all users. Retrieve this user. After, just click on &quot;Edit&quot; for this user and on the new page (its profil), change the value &quot;Role:&quot; for the new role.</p>
+<p>
+	Now this current user in your special role have access to add a livestreamID or livestreamName from its wordpress profil field.</p>
+</section>
+<section id="how_to_manual_shortcode">
+	<h3>How to: manual shortcode</h3><hr class="notop">
+<p>
+	<strong>Information&nbsp;</strong>if you lose (delete) accidentally your livestream page, the correct shortcode to make the loop of thumbnails with the view modes is:&nbsp;[LivesOnline]</p>
+<p>
+	How to make manual shortcode to create livestream or chat irc outside the loop of thumbnails/livestream page (e.g. in posts or pages)</p>
+<p>
+	<strong>own3d, twitch, justin. (Optionally and only for manual shortcode ustream/livestream exist)</strong></p>
+<p style="margin-left: 40px; ">
+	<strong>basic</strong></p>
+<p style="margin-left: 40px; ">
+	[livestream type=&quot;Type&quot; channel=&quot;channelID&quot;]</p>
+<p style="margin-left: 40px; ">
+	<strong>Required parameters</strong></p>
+<p style="margin-left: 40px; ">
+	type=&quot;...&quot; (may take parameters &quot;own3d&quot;, &quot;twitch&quot;, &quot;justin&quot;, &quot;livestream&quot;, &quot;ustream&quot;)</p>
+<p style="margin-left: 40px; ">
+	channel=&quot;...&quot; (channelID or channelName of the livestream from own3d.tv, twitch.tv, justin.tv, livestream.com, ustream.tv)</p>
+<p style="margin-left: 40px; ">
+	<strong>Optionals parameters</strong> (if nothing is defined, it&#39;s the default options from administration that&nbsp;take over)</p>
+<p style="margin-left: 40px; ">
+	width=&quot;...&quot; (width in pixel)</p>
+<p style="margin-left: 40px; ">
+	height=&quot;...&quot; (height in pixel)</p>
+<p style="margin-left: 40px; ">
+	autoplay=&quot;...&quot; (may take parameters &quot;true&quot; or &quot;false&quot;)</p>
+<p style="margin-left: 40px; ">
+	visibilty=&quot;...&quot; &nbsp;(may take parameters &quot;members only&quot; or &quot;public&quot;)</p>
+<p style="margin-left: 40px; ">
+	message=&quot;...&quot; (a special message of your choice for visitors if visibility=&quot;members only&quot;)</p>
+<p style="margin-left: 40px; ">
+	registration=&quot;...&quot; (your special link/login url to your login page&nbsp;if visibility=&quot;members only&quot;)</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>IRC Quakenet (or original chat IRC)</strong></p>
+<p style="margin-left: 40px; ">
+	<strong>basic</strong></p>
+<p style="margin-left: 40px; ">
+	[liveTVChat type=&quot;quakenet&quot; channel=&quot;channelName&quot;]</p>
+<p style="margin-left: 40px; ">
+	<strong>Required parameters</strong></p>
+<p style="margin-left: 40px; ">
+	channel=&quot;...&quot; (channelName of your choice for this IRC Chat or chanID from original chat on own3d, twitch,justin)</p>
+<p style="margin-left: 40px; ">type=&quot;...&quot; (may take parameters own3dn twitch, justin, quakenet)</p>
+<p style="margin-left: 40px; ">
+	<strong>Optionals parameters</strong>&nbsp;(if nothing is defined, it&#39;s the default options from administration that&nbsp;take over)</p>
+<p style="margin-left: 40px; ">
+	width=&quot;...&quot; (width in pixel)</p>
+<p style="margin-left: 40px; ">
+	height=&quot;...&quot; (height in pixel)</p>
+<p style="margin-left: 40px; ">
+	visibilty=&quot;...&quot; &nbsp;(may take parameters &quot;members only&quot; or &quot;public&quot;)</p>
+<p style="margin-left: 40px; ">
+	message=&quot;...&quot; (a special message of your choice for visitors if visibility=&quot;members only&quot;)</p>
+<p style="margin-left: 40px; ">
+	registration=&quot;...&quot; (your special link/login url to your login page&nbsp;if visibility=&quot;members only&quot;)</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>You may use something like that to create a livestream in a post or a page and under this livestream its IRC Chat</strong></p>
+<p>
+	[livestream type=&quot;Type&quot; channel=&quot;channelName&quot;]</p>
+<p>
+	[liveTVChat type=&quot;quakenet&quot; channel=&quot;channelName&quot;]</p>
+<p>&nbsp;
+	</p>
+<p>&nbsp;
+	</p>
+</section>
+<section id="css_troubleshooting">
+	<h3>CSS troubleshooting</h3><hr class="notop">
+<p>
+	If you have some css trouble for sidebar widget, you may edit the css file page-livestreams.css in livetv-bundle/css/page-livestreams.css</p>
+<p>&nbsp;
+	</p>
+<p>
+	<strong>The two width attributs to edit is in this file and @ the bottom</strong></p>
+<p>&nbsp;
+	</p>
+<div style="margin-left: 40px; ">
+	/*For the widget and eventually css bug, edit the two width attributs and make some test */</div>
+<div style="margin-left: 40px; ">
+	&nbsp;</div>
+<div style="margin-left: 40px; ">
+	/*Width of thumbnail */</div>
+<div style="margin-left: 40px; ">
+	li.widget_livetv_widget span.minithumb-own3d-thumb img, li.widget_livetv_widget span.minithumb-justin-thumb img, li.widget_livetv_widget span.minithumb-twitch-thumb img {</div>
+<div style="margin-left: 40px; ">
+	width:43%!important;</div>
+<div style="margin-left: 40px; ">
+	height:auto!important;</div>
+<div style="margin-left: 40px; ">
+	}</div>
+<div style="margin-left: 40px; ">
+	/*Width of texts */<span class="Apple-tab-span" style="white-space:pre"> </span></div>
+<div style="margin-left: 40px; ">
+	li.widget_livetv_widget span.minithumb-own3d-info, li.widget_livetv_widget span.minithumb-justin-info, li.widget_livetv_widget span.minithumb-twitch-info {</div>
+<div style="margin-left: 40px; ">
+	width:54%;</div>
+<div style="margin-left: 40px; ">
+	}</div>
+</section>
+<section id="credits">
+	<h3>Credits</h3><hr class="notop">
+<p>
+	I&rsquo;ve used the following images, icons or other files as listed.</p>
+<ul>
+	<li>
+		qTip2 &ndash; Pretty powerful tooltips &ndash; http://craigsworks.com/projects/qtip2/</li>
+	<li>
+		jscolor, JavaScript Color Picker &ndash; http://www.gnu.org/copyleft/lesser.html</li>
+	<li>
+		jQuery Easing v1.3 &ndash; http://gsgd.co.uk/sandbox/jquery/easing/</li>
+	<li>
+		JQuery write less do more - http://jquery.com/</li>
+</ul>
+</section>
+<section id="thank_you">
+	<h3>Thank you</h3><hr class="notop">
+<p>&nbsp;
+	</p>
+<div>
+	Once again, thank you so much for purchasing this plugin. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this plugin. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the plugin you might consider visiting the forums and asking your question in the section. You may condider a donation @ <a href="http://kwark.allwebtuts.net">http://kwark.allwebtuts.net</a> to support my plugin. Thank you KwarK</div>
+<div>
+	&nbsp;</div>
+<div>
+	Laurent (KwarK) Bertrand</div>
+</section>
+
+	</div>
+</body>
+</html>

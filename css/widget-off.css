@@ -1,0 +1,5 @@
+@charset utf-8;
+li.widget_livetv_widget span.offline, li.widget_livetv_widget span.offline, li.widget_livetv_widget span.offline {
+	display:none !important;
+	overflow:hidden !important
+}
